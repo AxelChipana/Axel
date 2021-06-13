@@ -589,44 +589,6 @@ section {
 	}
 }
 
-/* STATS */
-#numbers {
-	padding: 9rem 0 10rem 0; 
-}
-#numbers .all-items {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	/* gap: 2rem; */
-}
-#numbers .all-items .item {
-	padding: 2rem;
-}
-#numbers .number {
-	font-family: "Poppins", sans-serif;
-	font-size: 8rem;
-}
-#numbers .numbers-sub-heading {
-	font-size: 2rem;
-	margin-bottom: 2rem;
-}
-#numbers p {
-	color: black;
-}
-#numbers .all-items .item:nth-child(1) {
-	background-color: var(--second-color);
-}
-#numbers .all-items .item:nth-child(2) {
-	background-color: var(--third-color);
-}
-#numbers .all-items .item:nth-child(3) {
-	background-color: var(--fourth-color);
-}
-@media only screen and (max-width: 768px) {
-	#numbers .all-items {
-		flex-direction: column;
-	}
-}
 /* Project Section Style */
 #projects {
 	padding: 10rem 0;
